@@ -38,7 +38,8 @@ while (1)
 {
 fast = fast->next->next;
 										if (!fast)										{
-dup = slow->next								break;										}
+dup = slow->next;		
+break;										}
 if (!fast->next)								{									
 dup = slow->next->next;
 break;										}
