@@ -4,10 +4,10 @@
 
 class Square:
     """Represents a square.
-    Private instance attribute: size.
-    Instantiation with optional size.
-    """
 
+    Attributes:
+       __size (int): size of a side of the square
+    """
     def __init__(self, size=0):
         """Initializes the data."""
         if not isinstance(size, int):
